@@ -2,7 +2,7 @@
 
 A neural network that has been trained to detect temporal correlation and distinguish chaotic from stochastic signals.
 
-The <code>'auto_ANN_Omega'</code> file depicts the fully automatic code with the necessary libraries.
+The <code>'/auto_ANN_Omega/'</code> directory depicts the fully automatic code with the necessary libraries.
 
 The main file <code>'chaos_detection_ANN.py'</code> contains all the information.
 
@@ -22,6 +22,15 @@ For small time-series length<1000 points we suggest the command:
 <code>python chaos_detection_ANN.py serie.dat 10 </code>
 
 In this case, the code compares the time-series with <code>10</code> flicker-noise time-series.
+
+The <code>'tests'</code> directory presents an autorun of the <code>Figure 3</code> for a practical use, with fewer points (<code>101</code> initial conditions insted of <code>1000</code>) and less precision (length <code>2^16</code> instead of <code>2^20</code>).
+
+Instructions for running the code:
+<code>python autorun3.py </code>
+
+After a few minutes the figure <code>'test_fig3.png'</code> is generated.
+
+
 
 
 
