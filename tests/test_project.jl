@@ -1,5 +1,5 @@
 #-- This code offer example tests of the chaos-noise distinction tool. It simulates dynamical systems, through the DynamicalSystems package in Julia, and tests 2 noisy signals.
-#-- To run this, you need to have installed Julia (tested on version 1.5.4), and add the packages DynamicalSystems and Bridge. To do this: on the Julia terminal, type "]" then "add DynamicalSystems, Bridge".  The first run can take some time, but later runs are quick.
+#-- To run this, you need to have installed Julia (tested on version 1.5.4), and add the packages DynamicalSystems and Bridge. To do this: on the Julia terminal, type "]" then "add DynamicalSystems, Bridge". Also create dir time-series in the current dir The first run can take some time, but later runs are quick.
 #-- Run through command: "julia test_project.jl"
 #-- Outputs are the alpha returned by the ANN, the Omega, the symbolic entropy S and the flicker-noise entropy S_fn
 
